@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import VillagerList from '../components/villager/VillagerList';
 import { fetchApi } from '../services/animalCrossingApi';
 
 const AnimalCrossingList = () => {
