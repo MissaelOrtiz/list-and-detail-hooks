@@ -15,8 +15,8 @@ const server = setupServer(
 );
 
 describe('AnimalCrossingDetail', () => {
-  beforeAll(() => server.listen);
-  afterAll(() => server.close);
+  beforeAll(() => server.listen());
+  afterAll(() => server.close());
 
   it('displays info about a single villager', async () => {
     const { container } = render(
@@ -27,7 +27,7 @@ describe('AnimalCrossingDetail', () => {
 
     screen.getByText('Now Loading...');
 
-    await screen.findByRole('div', { name: 'villager' });
+    await screen.findByText('Admiral', { exact: false });
     expect(container).toMatchSnapshot();
   });
 });

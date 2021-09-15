@@ -7,15 +7,31 @@ exports[`AnimalCrossingDetail displays info about a single villager 1`] = `
     role="div"
   >
     <img
+      alt="Admiral"
       height="400px"
+      src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
     />
-    <p />
-    <p />
-    <p />
-    <p />
-    <p />
-    <p />
-    <p />
+    <p>
+      Admiral
+    </p>
+    <p>
+      male
+    </p>
+    <p>
+      Only quitters give up.
+    </p>
+    <p>
+      bird
+    </p>
+    <p>
+      January 27th (Aquarius)
+    </p>
+    <p>
+      aye aye
+    </p>
+    <p>
+      n/a
+    </p>
   </div>
 </div>
 `;
