@@ -20,14 +20,14 @@ describe('AnimalCrossingDetail', () => {
 
   it('displays info about a single villager', async () => {
     const { container } = render(
-      <MemoryRouter initialEntries={['/5f5fb4bbbfd05c2aed82e460']}>
+      <MemoryRouter initialEntries={['/5f5fb4bbbfd05c2aed82e460']} keyLength={25}>
         <AnimalCrossingDetail />
       </MemoryRouter>
     );
 
     screen.getByText('Now Loading...');
 
-    await screen.findByText('Admiral', { exact: false });
+    await screen.findByRole('div', { name: 'villager' });
     expect(container).toMatchSnapshot();
   });
 });

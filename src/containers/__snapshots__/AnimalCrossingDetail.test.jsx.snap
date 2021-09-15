@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimalCrossingDetail displays info about a single villager 1`] = `
+<div>
+  <div
+    aria-label="villager"
+    role="div"
+  >
+    <img
+      height="400px"
+    />
+    <p />
+    <p />
+    <p />
+    <p />
+    <p />
+    <p />
+    <p />
+  </div>
+</div>
+`;
